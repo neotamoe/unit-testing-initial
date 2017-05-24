@@ -1,0 +1,23 @@
+{
+  "name": "unit-testing-lec",
+  "version": "1.0.0",
+  "description": "Chai API/Docs: [http://chaijs.com/api/](http://chaijs.com/api/)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.4.2",
+    "request": "^2.81.0"
+  }
+}
